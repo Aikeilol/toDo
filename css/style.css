@@ -1,0 +1,14 @@
+ul{
+  margin: 0;
+  padding: 0;
+}
+body{
+  overflow: hidden;
+}
+.parent{
+  cursor: grab;
+}
+
+#dragList{
+  pointer-events: none;
+}
