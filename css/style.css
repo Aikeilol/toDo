@@ -1,14 +1,22 @@
-ul{
+ul {
   margin: 0;
   padding: 0;
 }
-body{
+
+body {
   overflow: hidden;
+  background: #333;
+  color: #999;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  height: 98vh;
 }
-.parent{
+
+.parent {
   cursor: grab;
 }
 
-#dragList{
+#dragList {
   pointer-events: none;
 }
